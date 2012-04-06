@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69E98FA152C027500EC1F43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69E98F9152C027500EC1F43 /* Cocoa.framework */; };
+		D69E9904152C027500EC1F43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D69E9902152C027500EC1F43 /* InfoPlist.strings */; };
+		D69E9906152C027500EC1F43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D69E9905152C027500EC1F43 /* main.m */; };
+		D69E990A152C027500EC1F43 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D69E9908152C027500EC1F43 /* Credits.rtf */; };
+		D69E990D152C027500EC1F43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D69E990C152C027500EC1F43 /* AppDelegate.m */; };
+		D69E9910152C027500EC1F43 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69E990E152C027500EC1F43 /* MainMenu.xib */; };
+		D69E9918152C027500EC1F43 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69E9917152C027500EC1F43 /* SenTestingKit.framework */; };
+		D69E9919152C027500EC1F43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69E98F9152C027500EC1F43 /* Cocoa.framework */; };
+		D69E9921152C027500EC1F43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D69E991F152C027500EC1F43 /* InfoPlist.strings */; };
+		D69E9924152C027500EC1F43 /* ZenDeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D69E9923152C027500EC1F43 /* ZenDeskTests.m */; };
+		D69E992F152C045C00EC1F43 /* XmlDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D69E992E152C045C00EC1F43 /* XmlDelegate.m */; };
+		D69E9935152C356500EC1F43 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69E9934152C356500EC1F43 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69E991A152C027500EC1F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69E98EC152C027500EC1F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69E98F4152C027500EC1F43;
+			remoteInfo = ZenDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69E98F5152C027500EC1F43 /* ZenDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69E98F9152C027500EC1F43 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D69E98FC152C027500EC1F43 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D69E98FD152C027500EC1F43 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D69E98FE152C027500EC1F43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D69E9901152C027500EC1F43 /* ZenDesk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZenDesk-Info.plist"; sourceTree = "<group>"; };
+		D69E9903152C027500EC1F43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D69E9905152C027500EC1F43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D69E9907152C027500EC1F43 /* ZenDesk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenDesk-Prefix.pch"; sourceTree = "<group>"; };
+		D69E9909152C027500EC1F43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D69E990B152C027500EC1F43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D69E990C152C027500EC1F43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D69E990F152C027500EC1F43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D69E9916152C027500EC1F43 /* ZenDeskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenDeskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69E9917152C027500EC1F43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D69E991E152C027500EC1F43 /* ZenDeskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZenDeskTests-Info.plist"; sourceTree = "<group>"; };
+		D69E9920152C027500EC1F43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D69E9922152C027500EC1F43 /* ZenDeskTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenDeskTests.h; sourceTree = "<group>"; };
+		D69E9923152C027500EC1F43 /* ZenDeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZenDeskTests.m; sourceTree = "<group>"; };
+		D69E992D152C045C00EC1F43 /* XmlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlDelegate.h; sourceTree = "<group>"; };
+		D69E992E152C045C00EC1F43 /* XmlDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlDelegate.m; sourceTree = "<group>"; };
+		D69E9934152C356500EC1F43 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69E98F2152C027500EC1F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E9935152C356500EC1F43 /* WebKit.framework in Frameworks */,
+				D69E98FA152C027500EC1F43 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E9912152C027500EC1F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E9918152C027500EC1F43 /* SenTestingKit.framework in Frameworks */,
+				D69E9919152C027500EC1F43 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69E98EA152C027500EC1F43 = {
+			isa = PBXGroup;
+			children = (
+				D69E9934152C356500EC1F43 /* WebKit.framework */,
+				D69E98FF152C027500EC1F43 /* ZenDesk */,
+				D69E991C152C027500EC1F43 /* ZenDeskTests */,
+				D69E98F8152C027500EC1F43 /* Frameworks */,
+				D69E98F6152C027500EC1F43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69E98F6152C027500EC1F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69E98F5152C027500EC1F43 /* ZenDesk.app */,
+				D69E9916152C027500EC1F43 /* ZenDeskTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69E98F8152C027500EC1F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69E98F9152C027500EC1F43 /* Cocoa.framework */,
+				D69E9917152C027500EC1F43 /* SenTestingKit.framework */,
+				D69E98FB152C027500EC1F43 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D69E98FB152C027500EC1F43 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69E98FC152C027500EC1F43 /* AppKit.framework */,
+				D69E98FD152C027500EC1F43 /* CoreData.framework */,
+				D69E98FE152C027500EC1F43 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D69E98FF152C027500EC1F43 /* ZenDesk */ = {
+			isa = PBXGroup;
+			children = (
+				D69E992D152C045C00EC1F43 /* XmlDelegate.h */,
+				D69E992E152C045C00EC1F43 /* XmlDelegate.m */,
+				D69E990B152C027500EC1F43 /* AppDelegate.h */,
+				D69E990C152C027500EC1F43 /* AppDelegate.m */,
+				D69E990E152C027500EC1F43 /* MainMenu.xib */,
+				D69E9900152C027500EC1F43 /* Supporting Files */,
+			);
+			path = ZenDesk;
+			sourceTree = "<group>";
+		};
+		D69E9900152C027500EC1F43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D69E9901152C027500EC1F43 /* ZenDesk-Info.plist */,
+				D69E9902152C027500EC1F43 /* InfoPlist.strings */,
+				D69E9905152C027500EC1F43 /* main.m */,
+				D69E9907152C027500EC1F43 /* ZenDesk-Prefix.pch */,
+				D69E9908152C027500EC1F43 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D69E991C152C027500EC1F43 /* ZenDeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69E9922152C027500EC1F43 /* ZenDeskTests.h */,
+				D69E9923152C027500EC1F43 /* ZenDeskTests.m */,
+				D69E991D152C027500EC1F43 /* Supporting Files */,
+			);
+			path = ZenDeskTests;
+			sourceTree = "<group>";
+		};
+		D69E991D152C027500EC1F43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D69E991E152C027500EC1F43 /* ZenDeskTests-Info.plist */,
+				D69E991F152C027500EC1F43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69E98F4152C027500EC1F43 /* ZenDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69E9927152C027500EC1F43 /* Build configuration list for PBXNativeTarget "ZenDesk" */;
+			buildPhases = (
+				D69E98F1152C027500EC1F43 /* Sources */,
+				D69E98F2152C027500EC1F43 /* Frameworks */,
+				D69E98F3152C027500EC1F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenDesk;
+			productName = ZenDesk;
+			productReference = D69E98F5152C027500EC1F43 /* ZenDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69E9915152C027500EC1F43 /* ZenDeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69E992A152C027500EC1F43 /* Build configuration list for PBXNativeTarget "ZenDeskTests" */;
+			buildPhases = (
+				D69E9911152C027500EC1F43 /* Sources */,
+				D69E9912152C027500EC1F43 /* Frameworks */,
+				D69E9913152C027500EC1F43 /* Resources */,
+				D69E9914152C027500EC1F43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69E991B152C027500EC1F43 /* PBXTargetDependency */,
+			);
+			name = ZenDeskTests;
+			productName = ZenDeskTests;
+			productReference = D69E9916152C027500EC1F43 /* ZenDeskTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69E98EC152C027500EC1F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D69E98EF152C027500EC1F43 /* Build configuration list for PBXProject "ZenDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D69E98EA152C027500EC1F43;
+			productRefGroup = D69E98F6152C027500EC1F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69E98F4152C027500EC1F43 /* ZenDesk */,
+				D69E9915152C027500EC1F43 /* ZenDeskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69E98F3152C027500EC1F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E9904152C027500EC1F43 /* InfoPlist.strings in Resources */,
+				D69E990A152C027500EC1F43 /* Credits.rtf in Resources */,
+				D69E9910152C027500EC1F43 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E9913152C027500EC1F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E9921152C027500EC1F43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D69E9914152C027500EC1F43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69E98F1152C027500EC1F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E9906152C027500EC1F43 /* main.m in Sources */,
+				D69E990D152C027500EC1F43 /* AppDelegate.m in Sources */,
+				D69E992F152C045C00EC1F43 /* XmlDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E9911152C027500EC1F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E9924152C027500EC1F43 /* ZenDeskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69E991B152C027500EC1F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69E98F4152C027500EC1F43 /* ZenDesk */;
+			targetProxy = D69E991A152C027500EC1F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69E9902152C027500EC1F43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69E9903152C027500EC1F43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D69E9908152C027500EC1F43 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69E9909152C027500EC1F43 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D69E990E152C027500EC1F43 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69E990F152C027500EC1F43 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D69E991F152C027500EC1F43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69E9920152C027500EC1F43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69E9925152C027500EC1F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D69E9926152C027500EC1F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D69E9928152C027500EC1F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZenDesk/ZenDesk-Prefix.pch";
+				INFOPLIST_FILE = "ZenDesk/ZenDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D69E9929152C027500EC1F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZenDesk/ZenDesk-Prefix.pch";
+				INFOPLIST_FILE = "ZenDesk/ZenDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D69E992B152C027500EC1F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZenDesk.app/Contents/MacOS/ZenDesk";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZenDesk/ZenDesk-Prefix.pch";
+				INFOPLIST_FILE = "ZenDeskTests/ZenDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D69E992C152C027500EC1F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZenDesk.app/Contents/MacOS/ZenDesk";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZenDesk/ZenDesk-Prefix.pch";
+				INFOPLIST_FILE = "ZenDeskTests/ZenDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69E98EF152C027500EC1F43 /* Build configuration list for PBXProject "ZenDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E9925152C027500EC1F43 /* Debug */,
+				D69E9926152C027500EC1F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69E9927152C027500EC1F43 /* Build configuration list for PBXNativeTarget "ZenDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E9928152C027500EC1F43 /* Debug */,
+				D69E9929152C027500EC1F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D69E992A152C027500EC1F43 /* Build configuration list for PBXNativeTarget "ZenDeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E992B152C027500EC1F43 /* Debug */,
+				D69E992C152C027500EC1F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69E98EC152C027500EC1F43 /* Project object */;
+}
